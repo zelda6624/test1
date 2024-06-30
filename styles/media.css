@@ -1,0 +1,44 @@
+@media (max-width: 1400px) { 
+    .content {
+        margin: 0 20px;
+    }
+
+    .light-slider {
+        margin-top: 25px;
+    }
+
+    .full-images img {
+        width: 100%;
+    }
+
+    .slider-poster {
+        margin-bottom: 60px;
+    }
+
+    .footer-main {
+        display: none;
+    }
+
+    .navigation-list {
+        display: none;
+    }
+
+    .mobil-menu {
+        display: block;
+    }
+ }
+@media (max-width: 1200px) {
+    .mobil-poster {
+        display: block;
+    }
+    .poster-list {
+        display: none;
+    }
+    .new-poster-header {
+        margin-bottom: 20px;
+    }
+
+    .all-poster_text {
+        display: none;
+    }
+}
