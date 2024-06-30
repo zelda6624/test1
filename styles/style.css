@@ -1,0 +1,374 @@
+@font-face {
+    font-family: "FiraSans Regular";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/Fira_Sans/FiraSans-Regular.woff2") format("woff2"),
+         url("../fonts/Fira_Sans/FiraSans-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "FiraSans SemiBold";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/Fira_Sans/FiraSans-SemiBold.woff2") format("woff2"),
+         url("../fonts/Fira_Sans/FiraSans-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Garamond Bold";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/Garamond/garamond_bold.woff2") format("woff2"),
+         url("../fonts/Garamond/garamond_bold.woff") format("woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'FiraSans Regular', sans-serif;
+}
+
+.content {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.hiden {
+    display: none;
+}
+
+.logo {
+    margin-left: 2px;
+}
+h2 {
+    font-family: 'Garamond Bold', sans-serif;
+    font-size: 48px;
+    line-height: 140%;
+}
+/* Header */
+.header {
+    font-family: 'FiraSans SemiBold', sans-serif;
+    height: 104px;
+    background-color: #191919;
+    margin-bottom: 60px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    line-height: 104px;
+}
+
+.navigation-list {
+    display: flex;
+    list-style: none;
+}
+
+.navigation-item {
+    padding: 0 20px;
+}
+
+.navigation-item-svg::before {
+    content: url(../images/b.svg);
+    position: absolute;
+    margin: 0px -24px;
+}
+
+.navigation-link {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.slider-poster {
+    margin-bottom: 184px;
+}
+
+.wrapper-slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.slider_card {
+    display: flex;
+    font-family: 'FiraSans SemiBold', sans-serif;
+    width: 416px;
+    height: 104px;
+    background-color: #e2e2e2;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.slider_card-img {
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+.slider_card-title {
+    font-weight: bold;
+    margin-left: 24px;
+    line-height: 104px;
+}
+
+.all-poster {
+    display: flex;
+    align-items: center;
+    font-family: 'Garamond Bold', sans-serif;
+}
+
+.all-poster_text {
+    margin-left: 32px;
+    text-decoration: none;
+    color: #191919;
+}
+
+.new-poster-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.new-poster-header a {
+    font-size: 24px;
+}
+
+.poster-list .poster-card:not(:first-child) {
+    margin-top: 80px;
+}
+
+.poster-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1296px;
+    height: 304px;
+    background-color: #e2e2e2;
+    border-radius: 16px;
+}
+
+.poster-card__data {
+    font-family: 'Garamond Bold', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.poster-card__data span {
+    font-size: 64px;
+}
+
+.poster-card__title {
+    font-family: 'Garamond Bold', sans-serif;
+    font-size: 32px;
+    margin-bottom: 16px;
+    line-height: 140%;
+}
+
+.post-card__dusc {
+    margin-bottom: 40px;
+}
+
+.poster-card__content {
+    width: 415px;
+    height: 200px;
+}
+
+.post-card__trait-list {
+    display: flex;
+    list-style: none;
+}
+
+.trait-item {
+    display: flex;
+    margin-right: 32px;
+}
+
+.trait-item span {
+    line-height: 32.8px;
+    margin-left: 20px;
+}
+
+.trait-item_time::before {
+    content: url(../images/time.svg);
+    width: 26.67px;
+    height: 26.67px;
+}
+
+.trait-item_music::before {
+    content: url(../images/music.svg);
+    height: 27.47px;
+}
+
+.trait-item_age::before {
+    content: url(../images/age.svg);
+    height: 28px;
+}
+
+.button {
+    padding: 15px 30px 14px 30px;
+    border-radius: 50px;
+}
+
+.buy-ticket {
+    background-color: #05B093;
+    text-decoration: none;
+    color: #fff;
+}
+
+.new-poster {
+    margin-bottom: 136px;
+}
+
+.showcase-poster {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.calendar {
+    font-family: 'Garamond Bold', sans-serif;
+    font-size: 32px;
+}
+.calendar-header {
+    display: flex;
+    align-items: end;
+    width: 526px;
+    height: 300px;
+    border-radius: 12px 12px 0 0;
+    background-image: url(../images/calendar__image.jpg);
+    color: #e2e2e2;
+}
+
+.calendar-header p {
+    margin: 0 0 24px 24px;
+}
+
+.calendar-content {
+    width: 526px;
+    height: 264px;
+    background-color: #e2e2e2;
+    border-radius: 0 0 12px 12px;
+}
+
+.announcements-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.announcements-item {
+    display: flex;
+    align-items: center;
+    width: 306px;
+    height: 98px;
+}
+.announcements-item-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Garamond Bold', sans-serif;
+    text-align: center;
+    background-color: #05B093;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 12px;
+    width: 100px;
+    height: 98px;
+}
+
+.announcements-item-data span {
+    font-size: 32px;
+}
+
+.announcements-item-text {
+    font-family: 'FiraSans SemiBold', sans-serif;
+    font-size: 14px;
+}
+
+.announcements-item-content {
+    width: 206px;
+    text-align: center;
+}
+
+.news-list {
+    display: flex;
+    justify-content: space-between;
+    width: 636px;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.news-title {
+    font-family: 'Garamond Bold', sans-serif;
+    font-size: 24px;
+    margin-top: 32px;
+    line-height: 33.6px;
+}
+
+.news-text {
+    font-size: 16px;
+    margin-top: 24px;
+    line-height: 22.4px;
+}
+.footer {
+   margin-top: 150px;
+   height: 386px;
+   background-color: #191919;
+   color: #e2e2e2;
+}
+
+.footer-main {
+    display: flex;
+    padding-top: 60px;
+    height: 180px;
+}
+
+.footer-title {
+    font-family: 'Garamond Bold', sans-serif;
+    font-size: 24px;
+}
+.footer-list {
+    list-style: none;
+    margin-top: 32px;
+}
+
+.posters-a {
+    margin-left: 110px;
+}
+
+.contackt {
+    margin-left: 186px;
+}
+
+.posters-a-list {
+    display: flex;
+}
+
+
+.posters-a-list-item:not(:first-child) {
+    margin-left: 24px;
+}
+
+.contack-list-item:not(:first-child) {
+    margin-top: 24px;
+}
+
+.contack-list-item address {
+    font-style: normal;
+}
+
+.footer-hr {
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
+.footer-span {
+    text-align: center;
+    color: #8c8c8c;
+    line-height: 22.4px;
+}
