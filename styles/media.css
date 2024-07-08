@@ -25,7 +25,21 @@
 
     .mobil-menu {
         display: block;
+        color: #fff;
     }
+
+    .full-images {
+        width: 100%;
+        height: auto;
+    }
+    .light-slider {
+        width: 100%;
+    }
+
+    .slider_card {
+        width: 100%;
+    }
+
  }
 @media (max-width: 1200px) {
     .mobil-poster {
